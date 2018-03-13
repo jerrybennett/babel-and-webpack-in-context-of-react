@@ -127,7 +127,15 @@ reveal(gutMensch, "Chrome Boi")
 
 If we were to first pre-digest our files with Webpack, we would instead have a single, all-encompassing, file that ensures our dependencies are right where they belong.
 
-TODO: removed the code along/named export part that was here (see curriculum/react-jsx repo). Check lab and put there? Don't want to reincorporate: long enough as it is. 
+TODO: removed the code along/named export part that was here (see curriculum/react-jsx repo). Check lab and put there? Don't want to reincorporate: long enough as it is.
+
+## Summary
+
+You have just read a lot of information about two tools you likely have not worked directly with before. Luckily, they are easy to summarize:
+
+**Babel** enables us to use syntax that browsers won't natively recognize by **pre-compiling** it into syntax that browsers _do_ natively recognize. When used with React, this will include JSX. 
+
+In React, **Webpack** manages pesky dependency loading for us by **pre-digesting** our many files code and outputting a single 'bundle', which contains all of our code, with dependencies properly placed, in one file.
 
 ## Looking Forward
 You may, understandably, be asking yourself:
