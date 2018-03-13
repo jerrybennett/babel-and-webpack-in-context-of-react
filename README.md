@@ -2,12 +2,15 @@
 
 ## Overview
 
-In this lesson, we'll unpack what Babel and Webpack bring to the table when developing React applications.
+In this lesson, we'll unpack what **Babel** and **Webpack** bring to the table when developing React applications.
 
 ## Objectives
 
-1. Learn what Babel and Webpack are
-2. Understand the role of Babel and Webpack in our React applications
+1. Learn what Babel is
+2. Take a stretch break
+3. Learn what Webpack is
+4. Understand the role of Babel and Webpack in our React applications
+5. Frame Babel and Webpack's relative importance at this stage in learning React
 
 # Babel
 ![Tower of Babel](http://www.ancient-origins.net/sites/default/files/field/image/tower-of-babel-2.jpg)
@@ -133,7 +136,7 @@ TODO: removed the code along/named export part that was here (see curriculum/rea
 
 You have just read a lot of information about two tools you likely have not worked directly with before. Luckily, they are easy to summarize:
 
-**Babel** enables us to use syntax that browsers won't natively recognize by **pre-compiling** it into syntax that browsers _do_ natively recognize. When used with React, this will include JSX. 
+**Babel** enables us to use syntax that browsers won't natively recognize by **pre-compiling** it into syntax that browsers _do_ natively recognize. When used with React, this will include JSX.
 
 In React, **Webpack** manages pesky dependency loading for us by **pre-digesting** our many files code and outputting a single 'bundle', which contains all of our code, with dependencies properly placed, in one file.
 
