@@ -9,7 +9,7 @@ In this lesson, we'll unpack what Babel and Webpack bring to the table when deve
 1. Learn what Babel and Webpack are
 2. Understand the role of Babel and Webpack in our React applications
 
-## Babel
+# Babel
 ![Tower of Babel](http://www.ancient-origins.net/sites/default/files/field/image/tower-of-babel-2.jpg)
 
 First things first: [the origin story][origin-myth]. If you don't have time to read a great story, and want to get on with learning programming, allow us to provide the [TL;DR][TL;DR] and why it is relevant to the Babel tool we use.
@@ -31,7 +31,40 @@ As of 2018, you are in _significantly_ less danger of your target browsers _not_
 > "To Babel or not to Babel: ay, there's the rub"  
 > &nbsp;&nbsp;&nbsp;&nbsp;&#8211; _William Shakespear's Hamlet, [direct quote][hamlet]_
 
-Earlier on in the lesson, we talked about how we'd use something called [Babel][Babel] to compile our JSX down to browser-readable JavaScript. Babel also allows us to use new JS features before they are standardized and implemented in the browser, allowing us to write the most modern code we can, without worrying about browser support. Babel transpiles everything back down to JavaScript that _all_ browsers can understand. Neat!
+Even though most major browsers are up to date with the new ES6 features, Babel is still invaluable when creating web application, and especially React applications. Babel turns JSX into React function calls. That is, **Babel turns JSX into normal JavaScript written with the React library**. Enough theory! Let's see it in action:
+
+```JavaScript
+var profile = (
+  <div>
+    <img src="avatar.png" className="profile" />
+    <h3>{[user.firstName, user.lastName].join(' ')}</h3>
+  </div>;  
+)
+```
+...when the above is run through Babel, we receive:
+```JavaScript
+var profile = (
+  React.createElement("div", null,
+  React.createElement("img", { src: "avatar.png", className: "profile" }),
+  React.createElement("h3", null, [user.firstName, user.lastName].join(" ")))
+);
+```
+
+While you don't need Babel as a dependency when writing React code, it means you have to write in the non-JSX syntax seen in the output above. For now, we will be teaching and writing with Babel compiled JSX in our React applications.
+
+#### Not Just For JSX
+
+In addition to the JSX magic it provides, Babel can also compile other features and syntactical sugar that is not yet, or never will be, a part of ECMAScript! One example of this is a babel plugin that enables the usage of [language features in ES7][babel-es7] (or proposed to be in ES7) that have not even been officially included!
+
+## We must go deeper!
+
+No way! _we mustn't_! _we shouldn't_! _we couldn't!_ But If you _need_ know more about how React incorporates Babel, feel free to run [`npm run eject`][eject] _at your own risk_ in this repository. For the most part, we will be using the handy `create-react-app` when initializing new React projects, which obfuscates pre-configured files from us for user-friendliness and to avoid boiler-plate code. `npm run eject` will undo that obfuscation, and expose you to these pre-built configurations (read: "world of hurt"). For now, we recommend staying focused on improving your high-level React development skills, and leaving the general project configuration up to React.
+
+<p align="center">
+  <img src='https://learn-verified.s3.amazonaws.com/npm-run-eject.jpeg' height=500 width=300/>
+</p>
+
+#Webpack
 
 In the last couple of labs we have been using `npm start` to run our code in the browser and `npm test` to run our tests. The commands have been running Webpack and Babel to transpile our code into readable JS for all browsers. If you take a look in the root directory you will see a `.babelrc` file. This contains the Babel plugins that we use to transpile our code.
 
@@ -133,4 +166,6 @@ It's very important to know how this stuff works on a high level, because most o
 [babel]: http://babeljs.io/
 [transpile-compile]: https://stackoverflow.com/questions/43968748/is-babel-a-compiler-or-transpiler
 [chrome-boi]: https://learn-verified.s3.amazonaws.com/chrome-boi-wont-complain.png
-[hamlet]: https://en.wikipedia.org/wiki/To_be,_or_not_to_be
+[hamlet]: https://en.wikipedia.org/wiki/To_be,_or_not_to_be#Text
+[babel-es7]: https://babeljs.io/docs/plugins/preset-es2017/
+[eject]: https://github.com/facebook/create-react-app/blob/master/packages/react-scripts/template/README.md#npm-run-eject
