@@ -238,10 +238,8 @@ TL;DR: Every lab from now on already has the bundling stuff set up for you. You 
 
 
 ## Resources
-- [Webpack]: http://webpack.github.io
+- [Webpack]: https://webpack.js.org/
 - [Babel]: http://babeljs.io/
-- [Babelify]: https://github.com/babel/babelify
-- [JSX]: https://facebook.github.io/react/docs/jsx-in-depth.html
 
 <p class='util--hide'>View <a href='https://learn.co/lessons/react-jsx'>JSX</a> on Learn.co and start learning to code for free.</p>
 
