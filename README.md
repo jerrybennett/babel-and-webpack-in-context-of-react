@@ -15,11 +15,11 @@ In this lesson, we'll unpack what **Babel** and **Webpack** bring to the table w
 # Babel
 ![Tower of Babel](http://www.ancient-origins.net/sites/default/files/field/image/tower-of-babel-2.jpg)
 
-First things first: [the origin story][origin-myth]. If you don't have time to read a great story, and want to get on with learning programming, allow us to provide the [TL;DR][TL;DR] and why it is relevant to the Babel tool we use.
+First things first: [the origin story][origin-myth]. If you don't have time to read a great story, and want to get on with learning programming, allow us to provide the [TL;DR][TL;DR] and why it is relevant to the Babel tool we use:
 
-The Tower of Babel was a great tower, being built by a united humanity speaking the same language, with the intention of reaching such heights that heaven itself could be accessed. While it was being constructed, the God in the origin myth, (for debated reasons), smote the united humans by confounding their speech. This ensured they could no longer communicate.
+The Tower of Babel was a colossal tower project long ago. It was under construction by a united humanity speaking the same language, with the intention of reaching such heights that heaven itself could be accessed. While it was being constructed, the God in the origin myth, (for debated reasons), smote the united humans by confounding their speech. This ensured they could no longer communicate. Before you have any epiphanies on us, this is most likely _not_ where the term 'babbling' comes from. 
 
-Babel, ([the one we use][babel]), does the opposite of this God's smiting: it turns many languages/syntaxes/versions into one! As you may already know, JavaScript (based on the ECMAScript [ES] standard) is an evolving language. Over time we have had several iterations. For the most part, ECMAScript's evolution has changed to incorporate more features and language constructs over time (think ES6 arrow functions, class syntax, `let`, abd `const` vs. their absence in ES5!).
+Babel, ([the one we use][babel]), seeks to do the opposite of the aforementioned God's smiting: it turns many languages/syntaxes/versions into one! As you may already know, JavaScript (based on the ECMAScript [ES] standard) is an evolving language. Over time we have had several iterations. For the most part, ECMAScript's evolution has changed to incorporate more features and language constructs over time (think ES6 arrow functions, class syntax, `let`, abd `const` vs. their absence in ES5!).
 
 Babel originally gained popularity because it [compiled/transpiled][transpile-compile] newer ES6 syntax and language features into ES5 language features. This was especially important at the time because many browsers had not yet updated their JavaScript engines to interpret the new language features of ES6.
 
