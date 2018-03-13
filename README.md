@@ -17,11 +17,11 @@ In this lesson, we'll unpack what **Babel** and **Webpack** bring to the table w
 
 First things first: [the origin story][origin-myth]. If you don't have time to read a great story, and want to get on with learning programming, allow us to provide the [TL;DR][TL;DR] and why it is relevant to the Babel tool we use:
 
-The Tower of Babel was a colossal tower project long ago. It was under construction by a united humanity speaking the same language, with the intention of reaching such heights that heaven itself could be accessed. While it was being constructed, the God in the origin myth, (for debated reasons), smote the united humans by confounding their speech. This ensured they could no longer communicate. Before you have any epiphanies on us, this is most likely _not_ where the term 'babbling' comes from. 
+The Tower of Babel was a colossal tower project long ago. It was under construction by a united humanity speaking the same language, with the intention of reaching such heights that heaven itself could be accessed. While it was being constructed, the God in the origin myth, (for debated reasons), smote the united humans by confounding their speech. This ensured they could no longer communicate. Before you have any epiphanies on us, this is most likely _not_ where the term 'babbling' comes from.
 
 Babel, ([the one we use][babel]), seeks to do the opposite of the aforementioned God's smiting: it turns many languages/syntaxes/versions into one! As you may already know, JavaScript (based on the ECMAScript [ES] standard) is an evolving language. Over time we have had several iterations. For the most part, ECMAScript's evolution has changed to incorporate more features and language constructs over time (think ES6 arrow functions, class syntax, `let`, abd `const` vs. their absence in ES5!).
 
-Babel originally gained popularity because it [compiled/transpiled][transpile-compile] newer ES6 syntax and language features into ES5 language features. This was especially important at the time because many browsers had not yet updated their JavaScript engines to interpret the new language features of ES6.
+Babel originally gained popularity because it [compiled/transpiled][transpile-compile] newer ES6 syntax and language features into the older ES5. This was especially important at the time because many browsers had not yet updated their JavaScript engines to interpret the new language features of ES6.
 
 As of 2018, you are in _significantly_ less danger of your target browsers _not_ implementing ES6 syntax. For example, open up your browser's developer console and attempt to assign `let y = 4; console.log(y)`. If you are in Chrome, your Chrome Boi won't complain!
 
