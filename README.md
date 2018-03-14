@@ -23,7 +23,7 @@ Babel, ([the one we use][babel]), seeks to do the opposite of the aforementioned
 
 Babel originally gained popularity because it [compiled/transpiled][transpile-compile] newer ES6 syntax and language features into the older ES5. This was especially important when ES6 came out because many browsers had not yet updated their JavaScript engines to interpret the new language features of ES6.
 
-As of 2018, you are in less danger of your target browsers _not_ implementing ES6 syntax. For example, open up your browser's developer console and attempt to assign `let y = 4; console.log(y)`. Better believe Chrome Boi won't complain!
+As of 2018, you are in less danger of your target browsers _not_ implementing ES6 syntax than before.<sup>1</sup> For example, open up your browser's developer console and attempt to assign `let y = 4; console.log(y)`. Better believe Chrome Boi won't complain!
 
 <p align="center">
   <img src='https://learn-verified.s3.amazonaws.com/chrome-boi-wont-complain.png' height=500 width=300/>
@@ -148,7 +148,7 @@ You may, understandably, be asking yourself:
   - "Why didn't I `npm run eject`? Isn't that devil `create-react-app` hiding information from me?
   - Screw it. All systems go: `npm run eject` + `enter`
 
-Because `create-react-app` certainly isn't transparent with you, allow us to [open the kimono][open-kimono-not-offensive], so to speak.
+Because `create-react-app` certainly isn't transparent with you, allow us to TODO: FIND NEW NOT CONTROVERSIAL REFERENCE, so to speak.
 
 At Flatiron, we are constantly balancing an explanation of the fundamentals against practice on the real skills that will get you producing valuable applications the quickest. We believe that, while learning React basics, it's important to know how these tools (Webpack + Babel) work on a _high level_. Let's justify both in turn:
 
@@ -158,11 +158,11 @@ Additionally, there are a lot of juicy nectarines (read: low hanging fruit) that
 
 Now I've had my share of technical writing for the moment, and I reckon you have had your share of technical reading. Let's end on a true story about you:
 
-> You are stuck on an island the natives call: Eyewanam&auml;keawesumthingsinreeakt. The island is some kilometres from the nearest coastal town, which the natives revere as the land of Dhankahps, (which you have a vested interest in going to).
+> You are stuck on an island the locals call: Eyewanam&auml;keawesumthingsinreeakt. The island is some kilometres from the nearest coastal town, known only 'Dhankahps', (which you have a vested interest in going to).
 
->The natives want to help you on your way. While they know you could swim there with some effort, they could also put you in a hollowed out tree-trunk rowboat, give you an ore, and send you on your way. They see the value in the rowboat strategy: you will arrive at shore having learned a lot about the difficulties of open sea travel (not to mention, you will be totally [swol][swol] when you show up. The residents of Dhankahps love swol seafarers).
+>The locals want to help you on your way. While they know you could swim there with some effort, they could also put you in a hollowed out tree-trunk rowboat, give you an ore, and send you on your way. They see the value in the rowboat strategy: you will arrive at shore having learned a lot about the difficulties of open sea travel (not to mention, you will be totally [swol][swol] when you show up. The residents of Dhankahps love swol seafarers).
 
-> Regardless, the natives have hatched a better plan and are more excited about the prospect of equipping you with the quickest, most relevant boat. They give each other toothy smiles as they use logs to roll their [hydrofoil][hydrofoil] machine down to the shore. They laugh with you and slap your back with their rough, machine-shop hands imagining you blasting into Dhankahps, enthralling the locals with your speed on the sea (read: deployment speed). Before you go they proudly initiate you as one of their own, always with a home on the island, and gather at the beach to see you off. As your sail catches wind and you are making it out of the breakers into the open water, you reflect:
+> Regardless, the locals have hatched a better plan and are more excited about the prospect of equipping you with the quickest, most relevant boat. They give each other toothy smiles as they use logs to roll their [hydrofoil][hydrofoil] machine down to the shore. They laugh with you and slap your back with their rough, machine-shop hands imagining you blasting into Dhankahps, enthralling the locals with your speed on the sea (read: deployment speed). Before you go they proudly initiate you as one of their own, always with a home on the island, and gather at the beach to see you off. As your sail catches wind and you are making it out of the breakers into the open water, you reflect:
 
 > No, you won't know all of the ins and outs of hydrodynamics (the boat manages that for you).  
 
@@ -178,6 +178,8 @@ TL;DR: Every lab from now on already has the bundling stuff set up for you. You 
 - [Webpack]: https://webpack.js.org/
 - [Babel]: http://babeljs.io/
 
+<sup>1</sup> When 'in the field', so to speak, backwards compatibility will be more important
+
 <p class='util--hide'>View <a href='https://learn.co/lessons/react-jsx'>JSX</a> on Learn.co and start learning to code for free.</p>
 
 [origin-myth]: https://en.wikipedia.org/wiki/Tower_of_Babel
@@ -191,7 +193,7 @@ TL;DR: Every lab from now on already has the bundling stuff set up for you. You 
 [webpack]: https://webpack.js.org/
 [tubes]: https://en.wikipedia.org/wiki/Series_of_tubes
 [pied-piper]: http://www.piedpiper.com/
-[open-kimono-not-offensive]: https://www.investopedia.com/terms/o/open-kimono.asp
+[open-kimono-is-offensive-find-something-else-investopedia-lies]: https://www.investopedia.com/terms/o/open-kimono.asp
 [browserify]: http://browserify.org/
 [syntactic-sugar]: https://en.wikipedia.org/wiki/Syntactic_sugar
 [swol]: https://scontent.cdninstagram.com/t51.2885-15/s640x640/sh0.08/e35/13109122_818162874981972_854250567_n.jpg?ig_cache_key=MTI0MDEwMTQwNDQ5MDUyOTM2MQ%3D%3D.2.l
