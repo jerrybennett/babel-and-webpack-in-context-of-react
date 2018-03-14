@@ -57,11 +57,11 @@ While you don't need Babel as a dependency when writing React code, it means you
 
 #### Not Just For JSX
 
-In addition to the JSX magic it provides, Babel can also compile other features and syntactical sugar that is not yet, or never will be, a part of ECMAScript! One example of this is a babel plugin that enables the usage of [language features in ES7][babel-es7] (or proposed to be in ES7) that have not even been officially included!
+In addition to the JSX magic it provides, Babel can also compile other features and syntactical sugar that is not yet, or never will be, a part of ECMAScript! One example of this is a babel plugin that enables the usage of [language features proposed for ECMAScript, but not yet implemented][babel-stage-2].
 
 #### We must go deeper!
 
-No way! _we mustn't_! _we shouldn't_! _we couldn't!_ But If you _need_ know more about how React incorporates Babel, feel free to run [`npm run eject`][eject] _at your own risk_ in this repository. For the most part, we will be using the handy `create-react-app` when initializing new React projects, which obfuscates pre-configured files from us for user-friendliness and to avoid boiler-plate code. `npm run eject` will undo that obfuscation, and expose you to these pre-built configurations (read: "world of hurt"). For now, we recommend staying focused on improving your high-level React development skills, and leaving the general project configuration up to React.
+No way! _we mustn't_! _we shouldn't_! _we couldn't!_ But If you _need_ know more about how React incorporates Babel, feel free to run [`npm run eject`][eject] _at your own risk_ in this repository (which was made with `create-react-app`). For the most part, we will be using the handy `create-react-app` when initializing new React projects, which obfuscates pre-configured files from us for user-friendliness and to avoid boiler-plate code. `npm run eject` will undo that obfuscation, and expose you to these pre-built configurations (read: "world of hurt"). For now, we recommend staying focused on improving your high-level React development skills, and leaving the general project configuration up to React.
 
 <p align="center">
   <img src='https://learn-verified.s3.amazonaws.com/npm-run-eject.jpeg' height=500 width=300/>
@@ -186,7 +186,7 @@ TL;DR: Every lab from now on already has the bundling stuff set up for you. You 
 [transpile-compile]: https://stackoverflow.com/questions/43968748/is-babel-a-compiler-or-transpiler
 [chrome-boi]: https://learn-verified.s3.amazonaws.com/chrome-boi-wont-complain.png
 [hamlet]: https://en.wikipedia.org/wiki/To_be,_or_not_to_be#Text
-[babel-es7]: https://babeljs.io/docs/plugins/preset-es2017/
+[babel-stage-2]: https://babeljs.io/docs/plugins/preset-stage-2/
 [eject]: https://github.com/facebook/create-react-app/blob/master/packages/react-scripts/template/README.md#npm-run-eject
 [webpack]: https://webpack.js.org/
 [tubes]: https://en.wikipedia.org/wiki/Series_of_tubes
