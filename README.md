@@ -34,7 +34,7 @@ As of 2018, you are in less danger of your target browsers _not_ implementing ES
 > "To Babel or not to Babel: ay, there's the rub"  
 > &nbsp;&nbsp;&nbsp;&nbsp;&#8211; _William Shakespear's Hamlet, [direct quote][hamlet]_
 
-Even though most major browsers are up to date with the new ES6 features, Babel is still invaluable when creating web application, and especially React applications. Babel turns JSX into React function calls. That is, **Babel turns JSX into normal JavaScript written with the React library**. Enough theory! Let's see it in action:
+Even though most major browsers are up to date with the new ES6 features, Babel is still useful when creating web application; even more so in React. Babel turns JSX into React function calls. That is, **Babel turns JSX into normal JavaScript written with the React library**. Enough theory! Let's see it in action:
 
 ```JavaScript
 var profile = (
