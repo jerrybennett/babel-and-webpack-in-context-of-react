@@ -21,9 +21,9 @@ The Tower of Babel was a colossal tower project long ago. It was under construct
 
 Babel, ([the one we use][babel]), seeks to do the opposite of the aforementioned God's smiting: it turns many languages/syntaxes/versions into one! As you may already know, JavaScript (based on the ECMAScript [ES] standard) is an evolving language. Over time we have had several iterations. For the most part, ECMAScript's evolution has changed to incorporate more features and language constructs over time (think ES6 arrow functions, class syntax, `let`, abd `const` vs. their absence in ES5!).
 
-Babel originally gained popularity because it [compiled/transpiled][transpile-compile] newer ES6 syntax and language features into the older ES5. This was especially important at the time because many browsers had not yet updated their JavaScript engines to interpret the new language features of ES6.
+Babel originally gained popularity because it [compiled/transpiled][transpile-compile] newer ES6 syntax and language features into the older ES5. This was especially important when ES6 came out because many browsers had not yet updated their JavaScript engines to interpret the new language features of ES6.
 
-As of 2018, you are in _significantly_ less danger of your target browsers _not_ implementing ES6 syntax. For example, open up your browser's developer console and attempt to assign `let y = 4; console.log(y)`. If you are in Chrome, your Chrome Boi won't complain!
+As of 2018, you are in less danger of your target browsers _not_ implementing ES6 syntax. For example, open up your browser's developer console and attempt to assign `let y = 4; console.log(y)`. If you are in Chrome, your Chrome Boi won't complain!
 
 <p align="center">
   <img src='https://learn-verified.s3.amazonaws.com/chrome-boi-wont-complain.png' height=500 width=300/>
